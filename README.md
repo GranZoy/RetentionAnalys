@@ -1,26 +1,29 @@
-# Analys of Retention
+# Retention Analysis  
 
-Проект посвящен анализу Выручки сервиса Яндек.Аренда для долгосрочной сдачи квартир и проведению A/B теста для проверки гипотезы о влиянии уведомлений на уровень удержания клиентов.
+This project is available in:
+- [Русский] https://github.com/GranZoy/RetentionAnalysis/tree/ru_version
 
-## Данные
-В проекте используются ориентировочные данные сервиса по месяцам (январь-март 2025)
+This project focuses on analyzing the revenue of Yandex.Rent, a long-term apartment rental service, and conducting an A/B test to evaluate the impact of notifications on customer retention rates.  
 
-## Структура проекта
-1. **Дерево метрик**
-2. **Юнит-экономика и Когортный анализ**
-3. **A/B тестирование**: 
-   - Гипотеза: Уведомление с предложением продлить договор увеличит Retention на 10%
-   - Методология: z-test для пропорций, размер выборки 275 на группу
-   - Планируемая длительность: 3 месяца
+## Data  
+The project uses approximate service data by month (January–March 2025).  
 
-## Использование
-Проект представляет собой аналитическое исследование и может быть использован как:
-- Пример продуктовой аналитики
-- Шаблон для планирования A/B тестов
-- Образец когортного анализа
+## Project Structure  
+1. **Metric Tree**  
+2. **Unit Economics & Cohort Analysis**  
+3. **A/B Testing**:  
+   - **Hypothesis**: A notification prompting contract renewal will increase retention by 10%.  
+   - **Methodology**: Z-test for proportions, sample size of 275 per group.  
+   - **Planned Duration**: 3 months.  
 
-## Требования
-Для воспроизведения анализа потребуются:
-- Базовые знания статистики
-- Инструменты для работы с данными (Excel, Python)
-- Понимание методологии A/B тестирования
+## Usage  
+This project serves as an analytical study and can be used as:  
+- An example of product analytics.  
+- A template for planning A/B tests.  
+- A reference for cohort analysis.  
+
+## Requirements  
+To reproduce the analysis, the following are needed:  
+- Basic knowledge of statistics.  
+- Data analysis tools (Excel, Python).  
+- Understanding of A/B testing methodology.
